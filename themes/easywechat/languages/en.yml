@@ -29,6 +29,7 @@ sidebar:
     roadmap: Roadmap
     accounts: accounts
     payment: Payment
+    merchant_payment: Merchant Payment
     lucky_money: Lucky Money
     broadcast: Broadcast
     configuration: Configuration
