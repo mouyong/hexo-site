@@ -19,6 +19,7 @@ docs:
     menu: menu.html
     js: js.html
     payment: payment.html
+    merchant_payment: merchant_payment.html
     lucky_money: lucky-money.html
     card: card.html
     store: store.html
