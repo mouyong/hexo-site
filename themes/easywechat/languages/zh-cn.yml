@@ -58,3 +58,4 @@ sidebar:
     short_url: 短网址
     semantic: 语义理解
     reply: 自动回复
+    access_token: Access Token
