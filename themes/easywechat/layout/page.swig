@@ -9,6 +9,18 @@
                 <h1 class="article-title" itemprop="name">{{ page.title }}</h1>
                 <a href="{{ raw_link(page.source) }}" class="article-edit-link" title="{{ __('page.improve') }}"><i class="fa fa-pencil"></i> {{ __('page.improve') }}</a>
               </header>
+              <!-- AD -->
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <!-- easywechat-top -->
+              <ins class="adsbygoogle"
+                   style="display:block"
+                   data-ad-client="ca-pub-2163469583563094"
+                   data-ad-slot="3400967944"
+                   data-ad-format="auto"></ins>
+              <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+              <!-- /AD -->
               <div class="article-content" itemprop="articleBody" data-swiftype-index="true">
                 {{ page_anchor(page.content) }}
 
@@ -27,6 +39,18 @@
               {{ toc(page.content, {list_number: false}) }}
               <a href="#" id="article-toc-top">{{ __('page.back_to_top') }}</a>
             </div>
+            <!-- AD -->
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- easywechat-sidebar -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2163469583563094"
+                 data-ad-slot="6354434345"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <!-- /AD -->
           </aside>
         </div>
       </article>
