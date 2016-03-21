@@ -45,4 +45,6 @@
   <meta class="swiftype" name="title" data-type="string" content="{{ page.title || config.title }}">
   <!-- Google Analytics -->
   {{ partial('google_analytics') }}
+
+  <meta name="baidu-site-verification" content="YIRExzZ0VH" />
 </head>
