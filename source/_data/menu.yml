@@ -1,5 +1,6 @@
 home: /{lang}
 docs: /docs/{lang}
 2docs: https://github.com/overtrue/wechat/wiki
+video: https://laravist.com/series/peak-into-wechat-development-using-laravel
 news: /news/
 donate: /donate.html
