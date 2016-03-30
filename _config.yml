@@ -7,7 +7,9 @@ title: Easy We Chat
 subtitle:
 description:
 author: overtrue
-language: zh-cn
+language:
+  - zh-cn
+  - en
 timezone: PRC
 
 # URL

@@ -37,14 +37,14 @@ script:
   - git --version
   - git remote add -f docs https://${GH_TOKEN}@github.com/easywechat/docs.git
   - git fetch docs
-  - git subtree add --prefix=source/docs/en docs/en --squash
-  - git subtree add --prefix=source/docs/zh-cn docs/zh-cn --squash
+  - git subtree add --prefix=source/en/docs docs/en --squash
+  - git subtree add --prefix=source/zh-cn/docs docs/zh-cn --squash
   # Install dependencies
   - npm install --no-optional
 
 after_script:
   - hexo generate && gulp
-  - cp -r public/docs/zh-cn/* public/docs/
+  - cp -r public/zh-cn/docs/* public/docs/
   - cp -r public/* .deploy_git/
   - cd .deploy_git
   - git add -A

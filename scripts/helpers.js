@@ -5,7 +5,6 @@ var _ = require('lodash');
 var url = require('url');
 var cheerio = require('cheerio');
 var lunr = require('lunr');
-var localizedPath = ['docs'];
 
 function startsWith(str, start){
   return str.substring(0, start.length) === start;
@@ -87,6 +86,7 @@ hexo.extend.helper.register('canonical_url', function(lang){
 
 hexo.extend.helper.register('url_for_lang', function(path){
   var lang = this.page.lang;
+
   return this.url_for(path + lang).replace('//', '/');
 });
 

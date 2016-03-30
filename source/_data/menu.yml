@@ -1,13 +1,13 @@
 zh-cn:
   home: /
-  docs: /docs/zh-cn/
+  docs: /zh-cn/docs/
   2docs: https://github.com/overtrue/wechat/wiki
   video: https://laravist.com/series/peak-into-wechat-development-using-laravel
   news: /news/
   donate: /donate.html
 en:
   home: /en
-  docs: /docs/en/
+  docs: /en/docs/
   2docs: https://github.com/overtrue/wechat/wiki
   video: https://laravist.com/series/peak-into-wechat-development-using-laravel
   news: /news/
