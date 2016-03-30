@@ -3,7 +3,7 @@
 
   function changeLang(){
     var lang = this.value;
-    if (lang === 'zh-cn') lang = '';
+
     if (window.location.pathname == '/' && lang.length) {
         return window.location.pathname = '/en';
     }

@@ -15,7 +15,7 @@
       <label id="lang-select-label"><i class="fa fa-globe"></i><span>{{ lang_name(page.lang) }}</span></label>
       <select id="lang-select">
         {% for lang in site.data.languages %}
-          <option value="{{ loop.key }}"{% if page.lang === loop.key %} selected{% endif %}>{{ lang_name(loop.key) }}</option>
+          <option data-page-lang="{{ page.lang }}" value="{{ loop.key }}"{% if page.lang === loop.key %} selected{% endif %}>{{ lang_name(loop.key) }}</option>
         {% endfor %}
       </select>
     </div>
