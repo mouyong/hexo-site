@@ -11,11 +11,6 @@ function startsWith(str, start){
   return str.substring(0, start.length) === start;
 }
 
-function replaceLangInPath (path, lang, keepCN) {
-  if (!keepCN && lang == 'zh-cn') {lang = ''};
-  return /(\/zh-cn|\/en|\{lang\})/.test(path) ? path.replace(/(\/zh-cn|\/en|\{lang\})/g, '/' + lang) : path;
-}
-
 hexo.extend.helper.register('page_nav', function(){
   var type = this.page.canonical_path.split('/')[0];
   var sidebar = this.site.data.sidebar[type];
@@ -74,9 +69,9 @@ hexo.extend.helper.register('header_menu', function(className){
   var self = this;
   var lang = this.page.lang;
 
-  _.each(menu, function(path, title){
+  _.each(menu[lang], function(path, title){
     result += '<li class="' + className + '-item">';
-    result += '<a href="' + self.url_for(replaceLangInPath(path, lang)) + '" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
+    result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
     result += '</li>';
   });
 
@@ -92,9 +87,7 @@ hexo.extend.helper.register('canonical_url', function(lang){
 
 hexo.extend.helper.register('url_for_lang', function(path){
   var lang = this.page.lang;
-  var url = this.url_for(path);
-
-  return replaceLangInPath(url, lang);
+  return this.url_for(path + lang).replace('//', '/');
 });
 
 hexo.extend.helper.register('raw_link', function(path){
