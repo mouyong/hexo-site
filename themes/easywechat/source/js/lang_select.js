@@ -8,6 +8,10 @@
       return window.location.pathname = '/zh-cn';
     }
 
+    if (lang == 'zh-cn' && window.location.pathname == '/') {
+      return window.location.pathname = '/en';
+    }
+
     window.location.pathname = window.location.pathname.replace(/(zh-cn|en)/g, lang).replace('//', '/');
   }
 
