@@ -4,8 +4,8 @@
   function changeLang(){
     var lang = this.value;
 
-    if (lang == 'en' && window.location.pathname == '/') {
-      return window.location.pathname = '/en';
+    if (lang == 'zh-cn' && window.location.pathname == '/') {
+      return window.location.pathname = '/';
     }
 
     window.location.pathname = window.location.pathname.replace(/(zh-cn|en)/g, lang).replace('//', '/');
