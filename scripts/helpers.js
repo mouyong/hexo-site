@@ -87,6 +87,10 @@ hexo.extend.helper.register('canonical_url', function(lang){
 hexo.extend.helper.register('url_for_lang', function(path){
   var lang = this.page.lang;
 
+  if ((path == '' || path == '/') && lang == 'zh-cn') {
+    return '/';
+  }
+
   return this.url_for(path + lang).replace('//', '/');
 });
 
