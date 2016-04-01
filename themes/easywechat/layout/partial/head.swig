@@ -47,4 +47,5 @@
   {{ partial('google_analytics') }}
 
   <meta name="baidu-site-verification" content="YIRExzZ0VH" />
+  <meta name="baidu-site-verification" content="AADzpZ5myL" />
 </head>
