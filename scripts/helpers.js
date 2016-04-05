@@ -91,7 +91,7 @@ hexo.extend.helper.register('url_for_lang', function(path){
     return '/';
   }
 
-  return this.url_for(path + lang).replace('//', '/');
+  return this.url_for(lang + '/' + path).replace('//', '/');
 });
 
 hexo.extend.helper.register('raw_link', function(path){
