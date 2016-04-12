@@ -8,4 +8,4 @@ public/
 .travis/ssh_key
 .travis/ssh_key.pub
 source/docs/*
-source/en/docs/*
+source/en/docs/*_docpress

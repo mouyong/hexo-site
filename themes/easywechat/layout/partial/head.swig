@@ -48,6 +48,7 @@
 
   <meta name="baidu-site-verification" content="tBkeSW2PJg" />
   <meta name="baidu-site-verification" content="AADzpZ5myL" />
+  <meta name="google-site-verification" content="Q3yeKP4X_byNBAGuf8PhwO7vNYUgo2AnJUY9uwWn8tk" />
 
   <script>
   (function(){
