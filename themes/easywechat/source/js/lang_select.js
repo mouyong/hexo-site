@@ -1,6 +1,11 @@
 (function(){
   'use strict';
 
+  // 兼容处理
+  if (window.location.href.indexOf('docs/zh-cn') || window.location.href.indexOf('docs/en')) {
+    window.location.href = window.location.href.replace('docs/zh-cn', 'zh-cn/docs').replace('docs/en', 'en/docs');
+  }
+
   function changeLang(){
     var lang = this.value;
 
