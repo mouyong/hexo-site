@@ -46,6 +46,7 @@ sidebar:
     cache: Cache
     oauth: Oauth
     messages: Messages
+    message_transfer: Message Transfer
     events: Events
     material: Materials
     card: Card

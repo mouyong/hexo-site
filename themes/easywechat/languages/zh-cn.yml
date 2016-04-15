@@ -46,6 +46,7 @@ sidebar:
     cache: 缓存
     oauth: 网页授权
     messages: 消息
+    message_transfer: 多客服消息转发
     events: 事件
     material: 素材管理
     card: 卡券

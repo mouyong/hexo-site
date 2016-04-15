@@ -9,6 +9,7 @@ docs:
   basic_usage:
     server: server.html
     messages: messages.html
+    message_transfer: message-transfer.html
     events: events.html
     broadcast: broadcast.html
     notice: notice.html
