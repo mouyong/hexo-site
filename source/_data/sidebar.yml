@@ -14,6 +14,7 @@ docs:
     broadcast: broadcast.html
     notice: notice.html
     user: user.html
+    user_tag: user-tag.html
     user_group: user-group.html
     oauth: oauth.html
     material: material.html
