@@ -42,6 +42,7 @@ sidebar:
     server: 服务端
     menu: 菜单
     user: 用户
+    user_tag: 用户标签
     user_group: 用户组
     cache: 缓存
     oauth: 网页授权

@@ -42,6 +42,7 @@ sidebar:
     server: Server
     menu: Menu
     user: User
+    user_tag: User Tag
     user_group: User Group
     cache: Cache
     oauth: Oauth
