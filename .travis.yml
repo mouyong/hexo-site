@@ -41,7 +41,7 @@ script:
   - git subtree add --prefix=source/zh-cn/docs docs/zh-cn --squash
   # Install dependencies
   - npm install
-  - npm info hexo-renderer-marked
+  # - npm info hexo-renderer-marked
 
 after_script:
   - hexo generate && gulp
