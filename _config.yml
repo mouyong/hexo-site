@@ -18,7 +18,6 @@ url: http://easywechat.org
 root: /
 
 permalink: news/:year/:month/:day/:title/
-relative_link: true
 archive_dir: news
 code_dir: downloads/code
 new_post_name: :year-:month-:day-:title.md # File name of new posts
