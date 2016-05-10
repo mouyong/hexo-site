@@ -40,7 +40,8 @@ script:
   - git subtree add --prefix=source/en/docs docs/en --squash
   - git subtree add --prefix=source/zh-cn/docs docs/zh-cn --squash
   # Install dependencies
-  - npm install --no-optional
+  - npm install
+  - npm info hexo-renderer-marked
 
 after_script:
   - hexo generate && gulp
