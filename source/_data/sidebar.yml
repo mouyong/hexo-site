@@ -6,6 +6,7 @@ docs:
     tutorial: tutorial.html
     configuration: configuration.html
     integration: integration.html
+    faq: troubleshooting.html
   basic_usage:
     server: server.html
     messages: messages.html
