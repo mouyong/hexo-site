@@ -1,0 +1,14 @@
+zh-cn:
+  home: /
+  docs: /zh-cn/docs/
+  forum: https://forum.easywechat.org
+  video: https://laravist.com/series/peak-into-wechat-development-using-laravel
+  news: /news/
+  donate: /donate.html
+en:
+  home: /en
+  docs: /en/docs/
+  forum: https://forum.easywechat.org
+  video: https://laravist.com/series/peak-into-wechat-development-using-laravel
+  news: /news/
+  donate: /donate.html
