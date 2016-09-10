@@ -4,6 +4,11 @@ comment: false
 is_home: true
 ---
 
+ul#backers
+  - for i in site.config.backers
+  li.backer-item
+    a(href="{{ site.config.backers[i].url }}", title="{{ site.config.backers[i].label }}")
+      img(src="{{ site.config.backers[i].img }}")
 
 ul#intro-feature-list
   li.intro-feature-wrap

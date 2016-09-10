@@ -21,6 +21,10 @@
               (adsbygoogle = window.adsbygoogle || []).push({});
               </script>
               <!-- /AD -->
+              <div id="article-toc-inner">
+                <strong class="sidebar-title">{{ __('page.contents') }}</strong>
+                {{ toc(page.content, {list_number: false}) }}
+              </div>
               <div class="article-content" itemprop="articleBody" data-swiftype-index="true">
                 {{ page_anchor(page.content) }}
 
@@ -34,11 +38,6 @@
             </div>
           </div>
           <aside id="article-toc" role="navigation">
-            <div id="article-toc-inner">
-              <strong class="sidebar-title">{{ __('page.contents') }}</strong>
-              {{ toc(page.content, {list_number: false}) }}
-              <a href="#" id="article-toc-top">{{ __('page.back_to_top') }}</a>
-            </div>
             <!-- AD -->
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- easywechat-sidebar -->
