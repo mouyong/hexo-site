@@ -21,7 +21,7 @@
               (adsbygoogle = window.adsbygoogle || []).push({});
               </script>
               <!-- /AD -->
-              <div id="article-toc-inner">
+              <div>
                 <strong class="sidebar-title">{{ __('page.contents') }}</strong>
                 {{ toc(page.content, {list_number: false}) }}
               </div>
