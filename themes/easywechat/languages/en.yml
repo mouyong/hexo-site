@@ -48,6 +48,7 @@ sidebar:
     oauth: Oauth
     messages: Messages
     message_transfer: Message Transfer
+    open_platform: Open Platform
     events: Events
     material: Materials
     card: Card
