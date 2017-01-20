@@ -50,15 +50,6 @@
   <meta name="baidu-site-verification" content="AADzpZ5myL" />
   <meta name="google-site-verification" content="Q3yeKP4X_byNBAGuf8PhwO7vNYUgo2AnJUY9uwWn8tk" />
 
-  <script>
-  (function(){
-      var bp = document.createElement('script');
-      bp.src = '//push.zhanzhang.baidu.com/push.js';
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-  })();
-  </script>
-
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
   (adsbygoogle = window.adsbygoogle || []).push({
