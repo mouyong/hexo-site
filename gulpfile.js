@@ -9,20 +9,16 @@ var dirs = {
 };
 
 gulp.task('useref', function(){
-  var assets = $.useref.assets({
-    searchPath: 'public'
-  });
-
   return gulp.src('public/**/*.html')
-    .pipe(assets)
+    .pipe($.useref({
+      searchPath: 'public'
+    }))
     .pipe($.uniqueFiles())
     .pipe($.if('*.css', $.postcss([
       cssnano()
      ])))
     .pipe($.if('*.js', $.uglify()))
     .pipe($.rev())
-    .pipe(assets.restore())
-    .pipe($.useref())
     .pipe($.revReplace({
       prefix: '/'
     }))

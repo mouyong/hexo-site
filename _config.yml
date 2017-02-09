@@ -33,9 +33,9 @@ per_page: 0
 theme: easywechat
 
 backers:
-    - label: Laravist
-      url: https://laravist.com
-      img: https://camo.githubusercontent.com/f3d5327bd7dc6a7faeb8a4fbdf3d94e0181e85a5/68747470733a2f2f6f3064706c733172752e716e73736c2e636f6d2f6c617261766973742e636f6d2d6c6f676f2e706e67
+  - label: Laravist
+    url: https://laravist.com
+    img: https://camo.githubusercontent.com/f3d5327bd7dc6a7faeb8a4fbdf3d94e0181e85a5/68747470733a2f2f6f3064706c733172752e716e73736c2e636f6d2f6c617261766973742e636f6d2d6c6f676f2e706e67
 
 swiftype_key: URYXMYgtQuEhNHNY8d-F
 google_analytics: UA-64156348-1
