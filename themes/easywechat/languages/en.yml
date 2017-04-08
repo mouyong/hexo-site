@@ -32,6 +32,7 @@ sidebar:
     payment: Payment
     merchant_payment: Merchant Payment
     lucky_money: Lucky Money
+    cash_coupon: Cash Coupon
     broadcast: Broadcast
     configuration: Configuration
     basic_usage: Basic Usage

@@ -32,6 +32,7 @@ sidebar:
     payment: 支付
     merchant_payment: 企业支付
     lucky_money: 红包
+    cash_coupon: 代金券
     broadcast: 群发消息
     configuration: 配置
     basic_usage: 基本使用
