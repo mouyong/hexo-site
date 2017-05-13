@@ -2,14 +2,11 @@
   label: overtrue.me
   url: http://overtrue.me
 1:
-  label: Laravel 技巧
-  url: http://laravel.so
+  label: Laravel China
+  url: https://laravel-china.org
 2:
   label: Laravist 视频教程
   url: https://laravist.com
 3:
-  label: PHPHub
-  url: https://phphub.org
-4:
   label: Laravel 学院
   url: http://laravelacademy.org
