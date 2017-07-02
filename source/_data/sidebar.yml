@@ -18,6 +18,7 @@ docs:
     user_tag: user-tag.html
     user_group: user-group.html
     oauth: oauth.html
+    mini_program: mini_program.html
     material: material.html
     menu: menu.html
     js: js.html

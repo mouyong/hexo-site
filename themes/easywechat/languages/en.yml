@@ -45,6 +45,7 @@ sidebar:
     user: User
     user_tag: User Tag
     user_group: User Group
+    mini_program: Mini Program
     cache: Cache
     oauth: Oauth
     messages: Messages

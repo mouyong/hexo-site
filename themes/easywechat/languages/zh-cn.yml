@@ -45,6 +45,7 @@ sidebar:
     user: 用户
     user_tag: 用户标签
     user_group: 用户组
+    mini_program: 小程序
     cache: 缓存
     oauth: 网页授权
     messages: 消息
