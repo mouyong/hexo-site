@@ -1,7 +1,0 @@
-language: bash
-before_script:
-  - wget https://raw.githubusercontent.com/mouyong/hexo-site/master/deploy.sh
-
-script:
-  - chmod +x ./deploy.sh
-  - ./deploy.sh && echo "Completed."
