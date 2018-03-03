@@ -39,12 +39,12 @@ script:
   - git fetch blog
   - git subtree add --prefix=source/blog blog/master --squash
   # Install dependencies
-  - npm install --no-optional
+  - yarn install --no-optional
   # - npm info hexo-renderer-marked
 
 after_script:
   - hexo generate && gulp
-  - cp -r public/zh-cn/docs/* public/docs/
+  - cp -r public/blog/* public/articles/
   - cp -r public/* .deploy_git/
   - cd .deploy_git
   - git add -A

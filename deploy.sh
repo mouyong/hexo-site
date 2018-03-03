@@ -1,10 +1,9 @@
 #!/bin/bash
-# easywechat.org builder.
-# @author overtrue <anzhengchao@gmail.com>
+# blog.iwnweb.com/hexo-blog builder.
 #
 body='{
 "request": {
-    "message": "Update docs (triggered by mouyong/hexo-md).",
+    "message": "Update blog (triggered by mouyong/hexo-md).",
     "branch":"master"
   }
 }'
