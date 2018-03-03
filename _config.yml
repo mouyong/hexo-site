@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Easy We Chat
+title: = - =
 subtitle:
 description:
-author: overtrue
+author: = - =
 language:
   - zh-cn
   - en
@@ -14,7 +14,7 @@ timezone: PRC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://easywechat.org
+url: http://blog.iwnweb.com/hexo-blog
 root: /
 
 permalink: news/:year/:month/:day/:title/
