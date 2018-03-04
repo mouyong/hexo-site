@@ -26,9 +26,12 @@ addons:
 
 before_install:
   # Set Git config
-  - git config --global user.name "mouyong"
+  - git config --global user.name "牟勇"
   - git config --global user.email "my24251325@gmail.com"
   - git config --global push.default simple
+
+before_script:
+  - npm config set sass-binary-site https://npm.taobao.org/mirrors/node-sass
 
 script:
   # Clone the repository
@@ -39,7 +42,6 @@ script:
   - git fetch blog
   - git subtree add --prefix=source/blog blog/master --squash
   # Install dependencies
-  - npm config set sass-binary-site https://npm.taobao.org/mirrors/node-sass
   - npm install --global hexo
   - npm install --no-optional
   # - npm info hexo-renderer-marked
