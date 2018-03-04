@@ -39,6 +39,7 @@ script:
   - git fetch blog
   - git subtree add --prefix=source/blog blog/master --squash
   # Install dependencies
+  - npm config set sass-binary-site https://npm.taobao.org/mirrors/node-sass
   - npm install --global hexo
   - npm install --no-optional
   # - npm info hexo-renderer-marked
