@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - "4"
+  - "9"
 
 cache:
   apt: true
@@ -39,7 +39,8 @@ script:
   - git fetch blog
   - git subtree add --prefix=source/blog blog/master --squash
   # Install dependencies
-  - yarn install --no-optional
+  - npm install --global hexo
+  - npm install --no-optional
   # - npm info hexo-renderer-marked
 
 after_script:
