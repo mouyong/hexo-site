@@ -49,6 +49,7 @@ script:
 
 after_script:
   - hexo generate && gulp
+  - mkdir -p public/articles/
   - cp -r public/blog/* public/articles/
   - cp -r public/* .deploy_git/
   - cd .deploy_git
