@@ -29,6 +29,13 @@ before_install:
   - git config --global user.name "牟勇"
   - git config --global user.email "my24251325@gmail.com"
   - git config --global push.default simple
+  - npm config sass-binary-site https://npm.taobao.org/mirrors/node-sass
+
+install:
+  # Install dependencies
+  - npm install --global hexo
+  - npm install --no-optional
+  # - npm info hexo-renderer-marked
 
 script:
   # Clone the repository
@@ -38,10 +45,6 @@ script:
   - git remote add -f blog https://${GH_TOKEN}@github.com/mouyong/hexo-md.git
   - git fetch blog
   - git subtree add --prefix=source/blog blog/master --squash
-  # Install dependencies
-  - npm install --global hexo
-  - npm install --no-optional
-  # - npm info hexo-renderer-marked
 
 after_script:
   - hexo generate && gulp
